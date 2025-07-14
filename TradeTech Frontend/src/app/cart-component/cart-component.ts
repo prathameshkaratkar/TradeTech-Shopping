@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../models/product';
 import { CartService } from '../cart-service';
-import { NgFor } from '@angular/common';
+import { NgFor, NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-cart-component',
-  imports: [NgFor],
+  imports: [NgFor, NgIf],
   templateUrl: './cart-component.html',
   styleUrl: './cart-component.css'
 })

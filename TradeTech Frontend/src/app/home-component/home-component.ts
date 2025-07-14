@@ -9,8 +9,8 @@ import { Router } from '@angular/router'
 })
 export class HomeComponent {
   constructor(private router: Router) {}
-  subHeading="Latest, Seasonal, Beautiful"
-  contentHead="Order Now, Get Some Delivery Today"
+  subHeading="TradeTech"
+  contentHead="Innovative Electronics, Delivered to You"
   cards = 3;
   showAll() {
     this.router.navigate(['/shop'])

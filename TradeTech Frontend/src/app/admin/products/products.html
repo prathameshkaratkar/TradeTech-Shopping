@@ -1,0 +1,27 @@
+<h2>Manage Products</h2>
+<form (ngSubmit)="saveProduct()">
+  <input [(ngModel)]="productForm.name" name="name" placeholder="Name" required />
+  <input [(ngModel)]="productForm.description" name="description" placeholder="Description" required />
+  <input [(ngModel)]="productForm.price" name="price" type="number" placeholder="Price" required />
+  <input [(ngModel)]="productForm.imageUrl" name="imageUrl" placeholder="Image URL" />
+  <input [(ngModel)]="productForm.category" name="category" placeholder="Category" />
+  <button type="submit">{{ isEditing ? 'Update' : 'Add' }}</button>
+  <button type="button" (click)="resetForm()">Cancel</button>
+</form>
+
+<table>
+  <thead>
+    <tr><th>Name</th><th>Price</th><th>Category</th><th>Actions</th></tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let p of products">
+      <td>{{ p.name }}</td>
+      <td>{{ p.price }}</td>
+      <td>{{ p.category }}</td>
+      <td>
+        <button (click)="editProduct(p)">Edit</button>
+        <button (click)="deleteProduct(p.id!)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
