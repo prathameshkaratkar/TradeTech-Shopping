@@ -1,0 +1,62 @@
+.about-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+
+/* Left Side */
+.about-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-left img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.about-left button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 1px solid #888;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Right Side */
+.about-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+}
+
+.about-right img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  background-color: #ddd;
+  margin-bottom: 20px;
+}
+
+.about-right p {
+  font-size: 16px;
+  color: #444;
+}

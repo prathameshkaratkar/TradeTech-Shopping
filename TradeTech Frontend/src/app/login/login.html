@@ -1,0 +1,22 @@
+<div class="login-container">
+  <div class="login-form">
+    <img src="https://via.placeholder.com/50" alt="User Icon" />
+    <h2>Login</h2>
+
+    <div class="input-group">
+      <span class="icon">📧</span>
+      <input type="email" placeholder="Email" [(ngModel)]="email" />
+    </div>
+
+    <div class="input-group">
+      <span class="icon">🔒</span>
+      <input type="password" placeholder="Password" [(ngModel)]="password" />
+    </div>
+
+    <button (click)="onLogin()">Login</button>
+  </div>
+
+  <div class="login-image">
+    <img src="https://via.placeholder.com/300x300" alt="Login Illustration" />
+  </div>
+</div>

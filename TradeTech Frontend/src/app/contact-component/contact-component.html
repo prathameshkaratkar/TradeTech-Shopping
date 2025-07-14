@@ -1,0 +1,30 @@
+<section class="contact-section">
+  <!-- Page Title -->
+  <h2>{{ title }}</h2>
+
+  <div class="contact-container">
+    
+    <div class="contact-form">
+      <h3>{{ subtitle }}</h3>
+
+      <div class="row">
+        <input type="text" placeholder="FirstName" [(ngModel)]="firstName">
+        <input type="text" placeholder="LastName" [(ngModel)]="lastName">
+      </div>
+
+      <div class="row">
+        <input type="email" placeholder="Email" [(ngModel)]="email">
+        <input type="text" placeholder="Subject" [(ngModel)]="subject">
+      </div>
+
+      <textarea placeholder="Leave us message" [(ngModel)]="message"></textarea>
+
+      <button (click)="onSubmit()">Submit</button>
+    </div>
+
+    
+    <div class="contact-image">
+      <img src="5118756.jpg" alt="Contact Illustration">
+    </div>
+  </div>
+</section>
