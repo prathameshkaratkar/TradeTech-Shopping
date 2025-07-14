@@ -184,14 +184,22 @@ TradeTech-Shopping/
 
 View the application interface in the `screenshots/` directory:
 
-- **Home Page** - Product showcase and hero section
-- **Shop Page** - Product catalog with search and filters
-- **Cart Page** - Shopping cart management interface
-- **Login Page** - User authentication form
-- **Register Page** - New user registration form
-- **Admin Dashboard** - Administrative control panel
-- **Contact Page** - Customer support contact form
-- **About Page** - Company information and mission
+- **Home Page**
+![Home Page](screenshots/homepage.png)
+- **Shop Page**
+![Shop Page](screenshots/shoppage.png)
+- **Cart Page**
+![Cart Page](screenshots/cartpage.png)
+- **Login Page**
+![Login Page](screenshots/loginpage.png)
+- **Register Page** 
+![Register Page](screenshots/registerpage.png)
+- **Admin Dashboard**
+![Admin Dashboard](screenshots/adminpage.png)
+- **Contact Page** 
+![Contact Page](screenshots/contactpage.png)
+- **About Page**
+![About Page](screenshots/aboutpage.png)
 
 ## 🌐 API Endpoints
 
